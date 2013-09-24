@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<openerp>
+   <data>
+	   <record model="ir.ui.view" id="product_normal_form_view_extension">
+    		<field name="name">product.normal.form.inherit</field>
+    		<field name="model">product.product</field>
+    		<field name="inherit_id" ref="product.product_normal_form_view"/>
+    		<field name="arch" type="xml">
+        		<notebook position="inside">
+            		<page string="Quality control">
+				<group string="Quality control">
+                			<field name="x_quality_check" colspan="4" nolabel="1"/>
+				</group>
+            		</page>
+        		</notebook>
+    		</field>
+		</record>
+	</data>
+</openerp>
