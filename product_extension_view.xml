@@ -8,9 +8,27 @@
     		<field name="arch" type="xml">
         		<notebook position="inside">
             		<page string="Quality control">
-				<group string="Quality control">
-                			<field name="x_quality_check" colspan="4" nolabel="1"/>
-				</group>
+						<group string="Quality control">
+
+							<div>
+								<label for="quality_check_text" string="Quality Notes" />
+                				<field name="quality_check_text" colspan="4"/>
+							</div>
+							<newline/>
+							
+							<div class="oe_inline" style="float: left;">
+							
+								<div class="oe_inline" style="float: left;">
+									<label for="quality_lower_limit" string="Lower weight Limit" />						
+									<field name="quality_lower_limit" />
+								</div>
+								<div class="oe_inline" style="float: left;">
+									<label for="quality_upper_limit" string="Upper weight Limit" />					
+									<field name="quality_upper_limit" />
+								</div>
+							</div>
+
+						</group>
             		</page>
         		</notebook>
     		</field>

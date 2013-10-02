@@ -24,9 +24,12 @@
     "version" : "1.0",
     "author" : "Open Solutions Finland",
     "description" : """
+*** Product Quality Extension ***
+Adds a page to product that has a text field for quality notes
+***********************************
     """,
-    "website" : "http://verts.co.in",
-    "depends" : ["base","product","sale","stock","account"],
+    "website" : "http://www.opensolutions.fi",
+    "depends" : ["base","product","sale","stock"],
     "category" : "Generic Modules",
     "init_xml" : [],
     "demo_xml" : [],

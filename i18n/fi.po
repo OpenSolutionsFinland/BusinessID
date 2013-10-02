@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenERP Server 7.0-20130822-231054\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-24 07:11+0000\n"
-"PO-Revision-Date: 2013-09-24 10:13+0200\n"
+"POT-Creation-Date: 2013-10-02 10:12+0000\n"
+"PO-Revision-Date: 2013-10-02 13:13+0200\n"
 "Last-Translator: Jesse Vartiainen <jesse@opensolutions.fi>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
 "X-Generator: Poedit 1.5.7\n"
+
+#. module: product_quality
+#: view:product.product:0
+msgid "Lower weight Limit"
+msgstr "Alaraja painolle"
+
+#. module: product_quality
+#: field:product.product,quality_lower_limit:0
+msgid "Lower Limit"
+msgstr "alaraja"
+
+#. module: product_quality
+#: field:product.product,quality_upper_limit:0
+msgid "Upper Limit"
+msgstr "yläraja"
+
+#. module: product_quality
+#: view:product.product:0
+msgid "Quality Notes"
+msgstr "Muistiinpanot"
 
 #. module: product_quality
 #: model:ir.model,name:product_quality.model_product_product
@@ -27,11 +47,11 @@ msgid "Quality control"
 msgstr "Laatukontrolli"
 
 #. module: product_quality
-#: field:product.product,x_quality_check:0
-msgid "Quality check text"
-msgstr "Laatumuistiinpanot"
+#: view:product.product:0
+msgid "Upper weight Limit"
+msgstr "Yläraja painolle"
 
 #. module: product_quality
-#: view:product.product:0
-msgid "Quality Notes"
-msgstr "Muistiinpanot"
+#: field:product.product,quality_check_text:0
+msgid "Quality check text"
+msgstr "Laatukriteerit"

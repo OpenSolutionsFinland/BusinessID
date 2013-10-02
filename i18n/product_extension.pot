@@ -15,9 +15,10 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: product
-#: field:product.packaging,rows:0
 msgid "Quality Control"
+msgstr ""
+
+msgid "Quality Notes"
 msgstr ""
 
 
