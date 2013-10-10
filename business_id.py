@@ -1,14 +1,13 @@
 from osv import fields, osv
 
-class product_extension(osv.osv):
-	_name='product.product'
-	_inherit='product.product'
+class business_id(osv.osv):
+	_name='res.partner'
+	_inherit='res.partner'
 
 	_columns= {
-		'quality_check_text': fields.text('Quality check text', required=False),
-		'quality_lower_limit': fields.float('Lower Limit', required=False),
-		'quality_upper_limit': fields.float('Upper Limit', required=False)
+		'business_id_finland': fields.char('Business ID', required=False)
+		
 	}
 
-product_extension()
+business_id()
 

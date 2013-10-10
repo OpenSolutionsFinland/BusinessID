@@ -1,4 +1,4 @@
-ProductQuality
+BusinessID
 ==============
 
-Adds quality check reminder text field to product model and UI.
+Adds Business id to Partner view and model, also adds this to invoices

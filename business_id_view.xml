@@ -1,37 +1,16 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <openerp>
-   <data>
-	   <record model="ir.ui.view" id="product_normal_form_view_extension">
-    		<field name="name">product.normal.form.inherit</field>
-    		<field name="model">product.product</field>
-    		<field name="inherit_id" ref="product.product_normal_form_view"/>
-    		<field name="arch" type="xml">
-        		<notebook position="inside">
-            		<page string="Quality control">
-						<group string="Quality control">
+	<data>
+                <record model="ir.ui.view" id="business_id_form_view">
+                        <field name="name">res.partner.business.id.finland</field>
+                        <field name="model">res.partner</field>
+                        <field name="inherit_id" ref="base.view_partner_form"/>
+                        <field name="arch" type="xml">
+                                <field name="email" position="after">
+                                        <field name="business_id_finland"  attrs="{'invisible': [('is_company','=', False)]}"/>
+                                </field>
+                        </field>
+                </record>
 
-							<div>
-								<label for="quality_check_text" string="Quality Notes" />
-                				<field name="quality_check_text" colspan="4"/>
-							</div>
-							<newline/>
-							
-							<div class="oe_inline" style="float: left;">
-							
-								<div class="oe_inline" style="float: left;">
-									<label for="quality_lower_limit" string="Lower weight Limit" />						
-									<field name="quality_lower_limit" />
-								</div>
-								<div class="oe_inline" style="float: left;">
-									<label for="quality_upper_limit" string="Upper weight Limit" />					
-									<field name="quality_upper_limit" />
-								</div>
-							</div>
-
-						</group>
-            		</page>
-        		</notebook>
-    		</field>
-		</record>
 	</data>
 </openerp>

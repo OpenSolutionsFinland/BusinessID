@@ -20,21 +20,21 @@
 ##############################################################################
 
 {
-    "name" : "Product Quality Extension",
+    "name" : "Business ID in Finland",
     "version" : "1.0",
     "author" : "Open Solutions Finland",
     "description" : """
-*** Product Quality Extension ***
-Adds a page to product that has a text field for quality notes
+*** Business ID in Finland ***
+Adds Business id to Partner view and model, also adds this to invoices
 ***********************************
     """,
     "website" : "http://www.opensolutions.fi",
-    "depends" : ["base","product","sale","stock"],
+    "depends" : ["base"],
     "category" : "Generic Modules",
     "init_xml" : [],
     "demo_xml" : [],
     "data" : [
-              'product_extension_view.xml'
+              'business_id_view.xml'
                     ],
     'test': [
              ],
