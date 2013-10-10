@@ -25,6 +25,7 @@ from openerp.report import report_sxw
 class account_invoice_finland(report_sxw.rml_parse):
     def __init__(self, cr, uid, name, context):
         super(account_invoice, self).__init__(cr, uid, name, context=context)
+        print 'account_invoice_finland parser'
         self.localcontext.update({
             'time': time,
         })
