@@ -1,0 +1,27 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* business_id_finland
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20130829-231103\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-10 12:41+0000\n"
+"PO-Revision-Date: 2013-10-10 15:43+0200\n"
+"Last-Translator: Jesse Vartiainen <jesse@opensolutions.fi>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. module: business_id_finland
+#: model:ir.model,name:business_id_finland.model_res_partner
+msgid "Partner"
+msgstr "Kumppani"
+
+#. module: business_id_finland
+#: field:res.partner,business_id_finland:0
+msgid "Business ID"
+msgstr "Y-tunnus"
