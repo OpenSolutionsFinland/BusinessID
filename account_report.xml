@@ -3,7 +3,7 @@
     <data>
         <report
             auto="False"
-            id="account_invoices_finland"
+            id="account_invoicess"
             model="account.invoice"
             name="account.invoice"
             rml="business_id_finland/report/account_print_invoice.rml"
