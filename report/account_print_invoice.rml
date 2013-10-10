@@ -146,7 +146,7 @@
         <td><para style="terp_tblheader_Details_Centre"><b>Quantity</b></para></td>
         <td><para style="terp_tblheader_Details_Right"><b>Unit Price</b></para></td>
         <td><para style="terp_tblheader_Details_Right"><b>Disc.(%)</b></para></td>
-        <td><para style="terp_tblheader_Details_Right"><b>Price HI</b></para></td>
+        <td><para style="terp_tblheader_Details_Right"><b>Price</b></para></td>
     </tr>
     </blockTable>
     </pto_header>
