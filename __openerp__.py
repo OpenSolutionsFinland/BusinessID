@@ -34,8 +34,8 @@ Adds Business id to Partner view and model, also adds this to invoices
     "init_xml" : [],
     "demo_xml" : [],
     "data" : [
-              'business_id_view.xml'
-              #'account_report.xml'
+              'business_id_view.xml',
+              'account_report.xml'
                     ],
     'test': [
              ],

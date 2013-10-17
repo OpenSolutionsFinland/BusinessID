@@ -3,9 +3,9 @@
     <data>
         <report
             auto="False"
-            id="account_invoices"
+            id="account_invoices_custom"
             model="account.invoice"
-            name="account.invoice.finland"
+            name="account.invoice.custom"
             rml="business_id_finland/report/account_print_invoice.rml"
             string="Invoices"
             attachment="(object.state in ('open','paid')) and ('INV'+(object.number or '').replace('/','')+'.pdf')"
