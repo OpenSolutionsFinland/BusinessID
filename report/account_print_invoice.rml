@@ -167,7 +167,7 @@
           <para style="terp_default_8">Fax : [[ (o.partner_id.fax) or removeParentNode('para') ]]</para>
           <para style="terp_default_8">TIN : [[ (o.partner_id.vat) or removeParentNode('para') ]]</para>
 		  <para style="terp_default_8">BID : [[ (o.partner_id.business_id_finland) or removeParentNode('para') ]]</para>
-		  <para style="terp_default_8">Ref : [[ (o.partner_id.ref) or removeParentNode('para') ]]</para>
+		  <para style="terp_default_8">Ref : [[ (partner_id.ref) or removeParentNode('para') ]]</para>
         </td>
       </tr>
     </blockTable>
