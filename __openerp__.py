@@ -29,8 +29,8 @@ Adds Business id to Partner view and model, also adds this to invoices
 ***********************************
     """,
     "website" : "http://www.opensolutions.fi",
-    "depends" : ["base"],
-    "category" : "Generic Modules",
+    "depends" : ["base", "sale", "account"],
+    "category" : "Accounting",
     "init_xml" : [],
     "demo_xml" : [],
     "data" : [
