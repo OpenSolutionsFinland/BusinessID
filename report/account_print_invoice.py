@@ -29,8 +29,9 @@ class account_invoice_finland(report_sxw.rml_parse):
         self.localcontext.update({
             'time': time,
         })
+        
 report_sxw.report_sxw(
-    'report.account.invoice.custom',
+    'account.invoice.custom',
     'account.invoice',
     'addons/business_id_finland/report/account_print_invoice.rml',
     parser=account_invoice_finland
