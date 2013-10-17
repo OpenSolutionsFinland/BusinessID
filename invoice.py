@@ -6,9 +6,9 @@ class account_invoice_custom(osv.osv):
     
     _columns = {}
     
-    def invoice_print(self, cr, uid, ids, context=None):
-        res = super(account_invoice_custom, self).invoice_print( cr, uid, ids,context)
-        res["report_name"] = "report.account.invoice.custom"
-        return res
+    #def invoice_print(self, cr, uid, ids, context=None):
+    #    res = super(account_invoice_custom, self).invoice_print( cr, uid, ids,context)
+    #    res["report_name"] = "report.account.invoice.custom"
+    #    return res
 
 account_invoice_custom()
