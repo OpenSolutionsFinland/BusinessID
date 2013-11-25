@@ -7,7 +7,7 @@ class business_id(osv.osv):
 
 	_columns= {
 		'business_id_finland': fields.char('Business ID', required=False),
-        'wtf_id': fields.char('Maventa ID', required=False)
+        'wtf_id': fields.char('wtf id', required=False),
 	}
 
 business_id()
